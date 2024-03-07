@@ -28,6 +28,9 @@
                             <slider opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="paB-Iw-F8e">
                                 <rect key="frame" x="148" y="679" width="118" height="30"/>
                                 <color key="tintColor" systemColor="systemGreenColor"/>
+                                <connections>
+                                    <segue destination="T1s-4N-GRS" kind="show" id="PMl-z5-guE"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -48,6 +51,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-239" y="11"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D29-YU-nxH">
+            <objects>
+                <viewController id="T1s-4N-GRS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9ji-Dg-AqJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBV-SP-HEI">
+                                <rect key="frame" x="175" y="248" width="105" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RzE-5D-fBP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qiD-yS-SP4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwo-iv-gSz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="599" y="11"/>
         </scene>
     </scenes>
     <resources>
